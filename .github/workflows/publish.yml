@@ -89,4 +89,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          preview: ${{ github.event_name == 'pull_request' }}
+          preview: ${{ github.event_name == 'pull_request' }}runner
+          
